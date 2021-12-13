@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.6em;
+  }
+ #member{
+     margin-top: 5%;
+     padding: auto;
+ }
+ #member h3{
+     text-align: center;
+     letter-spacing: .5em;
+ }
+ #image{
+     height: auto;
+     width: 20%;
+    float: left;;
+    margin: 1%;
+ }
+
+.clear-fix{
+    clear: both;
+}
+footer{
+    padding: 5%;
+    color: white;
+}
+blockquote a {
+text-decoration: none;
+letter-spacing: .4em;
+}
+blockquote a:hover{
+    color:red;
+}
+#login{
+    width: 50%;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 4%;
+    border-radius: 10%;
+}
+#login h5{
+    letter-spacing: .4em;
+}
+@media (max-width: 600px){
+    #image{
+        height: auto;
+        width: 40%;
+        margin: auto;
+    }
+    .bgimage{
+        width: auto;
+        height: auto;
+    }
+}
+.mypic{
+    float: left;
+}
+table{
+    float: right;
+}
+#main-block{
+    float: left;
+    width: 30%;
+}
+#sidebar{
+    float: right;
+    width :70%;
+    background-color: darkgray;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    border-right: solid black 3px;
+}
+#profileimg{
+    border: solid 1px black;
+    border-radius: 20%;
+    margin-right: 5%;
+}
